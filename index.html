@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevPortfolio-Pro | Professional Developer Showcase</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Professional Python Developer specializing in automation, web development, and ethical hacking. View my portfolio of innovative projects and technical expertise.">
+    <meta name="keywords" content="Python Developer, Web Development, Automation, Ethical Hacking, Flask, Django, Portfolio">
+    <meta name="author" content="Your Name">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="DevPortfolio-Pro - Professional Developer Showcase">
+    <meta property="og:description" content="Innovative Python developer creating automation tools and secure web applications">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://devportfolio-pro.com">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Schema.org Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Your Name",
+      "jobTitle": "Full Stack Developer & Security Expert",
+      "description": "Professional Python developer specializing in automation and web development",
+      "url": "https://devportfolio-pro.com",
+      "sameAs": [
+        "https://github.com/yourusername",
+        "https://linkedin.com/in/yourusername"
+      ]
+    }
+    </script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">DevPortfolio-Pro</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#blog" class="nav-link">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="code-rain"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="highlight">Your Name</span>
+                </h1>
+                <div class="hero-subtitle">
+                    <span class="typing-text" id="typing-text"></span>
+                    <span class="cursor">|</span>
+                </div>
+                <p class="hero-description">
+                    Code • Create • Innovate - Your Digital Showcase
+                </p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-rocket"></i>
+                        View Projects
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        <i class="fas fa-download"></i>
+                        Download Resume
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-envelope"></i>
+                        Contact Me
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-circle">
+                    <div class="profile-placeholder">
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-stats">
+            <div class="stat-item">
+                <div class="stat-number" data-target="50">0</div>
+                <div class="stat-label">Projects Completed</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" data-target="10000">0</div>
+                <div class="stat-label">Lines of Code</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" data-target="3">0</div>
+                <div class="stat-label">Years Experience</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number" data-target="25">0</div>
+                <div class="stat-label">Technologies Mastered</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="about-story">
+                        <h3>My Journey</h3>
+                        <p>Passionate developer with 3+ years of experience in full-stack development, automation, and ethical hacking. Started journey with Python scripting and evolved into comprehensive web development and cybersecurity expertise.</p>
+                        
+                        <h3>Philosophy</h3>
+                        <p>Believing in continuous learning, open-source contribution, and using technology to solve real-world problems while maintaining the highest security and ethical standards.</p>
+                        
+                        <div class="interests">
+                            <h4>Interests & Passions</h4>
+                            <div class="interest-tags">
+                                <span class="tag">Automation</span>
+                                <span class="tag">Cybersecurity</span>
+                                <span class="tag">Open Source</span>
+                                <span class="tag">Teaching</span>
+                                <span class="tag">Innovation</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-timeline">
+                    <h3>Experience Timeline</h3>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>Senior Python Developer</h4>
+                                <span class="company">Tech Innovation Corp</span>
+                                <span class="duration">2023 - Present</span>
+                                <p>Leading automation projects and security implementations</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>Full Stack Developer</h4>
+                                <span class="company">StartupXYZ</span>
+                                <span class="duration">2022 - 2023</span>
+                                <p>Built scalable web applications using Flask and modern frontend technologies</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>Self-Taught Developer</h4>
+                                <span class="company">Continuous Learning</span>
+                                <span class="duration">2022 - Present</span>
+                                <p>Continuous learning through practical projects, online courses, and community engagement</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="automation">Automation</button>
+                <button class="filter-btn" data-filter="security">Security</button>
+                <button class="filter-btn" data-filter="devops">DevOps</button>
+                <button class="filter-btn" data-filter="tools">Tools</button>
+            </div>
+            <div class="projects-search">
+                <input type="text" id="projects-search" placeholder="Search projects..." class="search-input">
+                <i class="fas fa-search search-icon"></i>
+            </div>
+            <div class="projects-grid" id="projects-grid">
+                <!-- Project cards will be generated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <div class="skills-grid" id="skills-grid">
+                <!-- Skills will be generated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <h2 class="section-title">Technical Blog</h2>
+            <div class="blog-grid" id="blog-grid">
+                <!-- Blog posts will be generated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Work Together</h3>
+                    <p>Ready to bring your ideas to life? I'm available for freelance projects, collaboration, and full-time opportunities.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>contact@yourwebsite.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Your City, Country</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <span>Available for projects</span>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Full Name</label>
+                        <input type="text" id="name" name="name" class="form-control" required>
+                        <div class="error-message" id="name-error"></div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email Address</label>
+                        <input type="email" id="email" name="email" class="form-control" required>
+                        <div class="error-message" id="email-error"></div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject" class="form-label">Subject</label>
+                        <input type="text" id="subject" name="subject" class="form-control" required>
+                        <div class="error-message" id="subject-error"></div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="project-type" class="form-label">Project Type</label>
+                        <select id="project-type" name="project-type" class="form-control">
+                            <option value="">Select a project type</option>
+                            <option value="web-development">Web Development</option>
+                            <option value="automation">Automation</option>
+                            <option value="security">Security & Penetration Testing</option>
+                            <option value="consultation">Technical Consultation</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="budget" class="form-label">Budget Range</label>
+                        <select id="budget" name="budget" class="form-control">
+                            <option value="">Select budget range</option>
+                            <option value="1000-5000">$1,000 - $5,000</option>
+                            <option value="5000-15000">$5,000 - $15,000</option>
+                            <option value="15000-50000">$15,000 - $50,000</option>
+                            <option value="50000+">$50,000+</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message" class="form-label">Project Details</label>
+                        <textarea id="message" name="message" rows="6" class="form-control" required></textarea>
+                        <div class="error-message" id="message-error"></div>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary btn-full-width" id="submit-btn">
+                        <i class="fas fa-paper-plane"></i>
+                        Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>DevPortfolio-Pro</h4>
+                    <p>Professional developer showcase built with modern web technologies and security best practices.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Technologies</h4>
+                    <ul>
+                        <li>Python & Flask</li>
+                        <li>JavaScript & Node.js</li>
+                        <li>Cybersecurity</li>
+                        <li>DevOps & Docker</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 DevPortfolio-Pro. All rights reserved.</p>
+                <div class="footer-social">
+                    <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="app.js"></script>
+</body>
+</html>
